@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - Devunivers</title>    <link rel="icon" type="image/png" href="/images/devunivers.png">    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/home/">
+                    <img src="/images/devunivers-logo.png" alt="Devunivers Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="/home/">Home</a></li>
+                    <li><a href="/about/">About Us</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/portfolio/" class="active">Portfolio</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/contact/" class="btn btn-primary">Contact Us</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Portfolio Hero Section -->
+        <section class="page-hero portfolio-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Our Portfolio</h1>
+                    <p>Explore our successful projects and digital solutions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="portfolio-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="ai">AI Solutions</button>
+                    <button class="filter-btn" data-filter="software">Custom Software</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Projects -->
+        <section class="portfolio-projects">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Fitlek Mobile App -->
+                    <div class="project-item" data-category="mobile" id="fitlek-mobile">
+                        <div class="project-image">
+                            <img src="/images/fitlek-app.svg" alt="Fitlek Coaching Reservation App">
+                            <div class="project-overlay">
+                                <div class="project-category">Mobile App</div>
+                                <h3>Fitlek</h3>
+                                <a href="#fitlek-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WinSpin Mobile App -->
+                    <div class="project-item" data-category="mobile" id="winspin-mobile">
+                        <div class="project-image">
+                            <img src="/images/winspin mobile1.png" alt="WinSpin Mobile App Screenshot 1">
+                            <div class="project-overlay">
+                                <div class="project-category">Mobile App</div>
+                                <h3>WinSpin Mobile</h3>
+                                <a href="#winspin-mobile-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WinSpin Web App -->
+                    <div class="project-item" data-category="web" id="winspin-web">
+                        <div class="project-image">
+                            <img src="/images/winspin web1.png" alt="WinSpin Web Admin Platform">
+                            <div class="project-overlay">
+                                <div class="project-category">Web Development</div>
+                                <h3>WinSpin Web</h3>
+                                <a href="#winspin-web-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Suite Coaching Web App -->
+                    <div class="project-item" data-category="web" id="suite-coaching">
+                        <div class="project-image">
+                            <img src="/images/suite coaching 1.png" alt="Suite Coaching Reservation Web App">
+                            <div class="project-overlay">
+                                <div class="project-category">Web Development</div>
+                                <h3>Suite Coaching</h3>
+                                <a href="#suite-coaching-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Speak Well Platform -->
+                    <div class="project-item" data-category="web" id="speak-well">
+                        <div class="project-image">
+                            <img src="/images/speakwell mobile.png" alt="Speak Well Online Learning Platform">
+                            <div class="project-overlay">
+                                <div class="project-category">Web Platform</div>
+                                <h3>Speak Well</h3>
+                                <a href="#speak-well-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pride Trans Transportation -->
+                    <div class="project-item" data-category="web" id="pride-trans">
+                        <div class="project-image">
+                            <img src="/images/pride trans web 1.png" alt="Pride Trans Transportation Web App">
+                            <div class="project-overlay">
+                                <div class="project-category">Web Development</div>
+                                <h3>Pride Trans</h3>
+                                <a href="#pride-trans-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slaatkom E-commerce -->
+                    <div class="project-item" data-category="web" id="slaatkom">
+                        <div class="project-image">
+                            <img src="/images/slaarkom web 1.png" alt="Slaatkom E-commerce Shop">
+                            <div class="project-overlay">
+                                <div class="project-category">E-commerce</div>
+                                <h3>Slaatkom</h3>
+                                <a href="#slaatkom-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Employee Productivity Tracking System -->
+                    <div class="project-item" data-category="software" id="employee-productivity">
+                        <div class="project-image">
+                            <img src="/images/employee-productivity.svg" alt="Employee Productivity Tracking System">
+                            <div class="project-overlay">
+                                <div class="project-category">Custom Software</div>
+                                <h3>Productivity Tracking</h3>
+                                <a href="#employee-productivity-details" class="btn btn-secondary view-project">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming AI Solution -->
+                    <div class="project-item upcoming" data-category="ai" id="ai-upcoming">
+                        <div class="project-image">
+                            <span class="project-badge badge-upcoming">Upcoming</span>
+                            <img src="/images/ai-upcoming.svg" alt="Upcoming AI Solution">
+                            <div class="project-overlay">
+                                <div class="project-category">AI Solution</div>
+                                <h3>Next-Gen AI Agent</h3>
+                                <a href="#ai-upcoming-details" class="btn btn-secondary view-project">Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Modals -->
+        <!-- Fitlek Modal -->
+        <div class="project-details-modal" id="fitlek-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Fitlek – Coaching Reservation App</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-images">
+                        <img src="/images/fitlek-app.svg" alt="Fitlek App Overview">
+                        <img src="/images/fitlek-app.svg" alt="Fitlek Booking Flow">
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Roles</h3><p>Admin, Gym Admin, Coach, Client</p></div>
+                        <div class="info-item"><h3>Core Feature</h3><p>Credit-based booking</p></div>
+                        <div class="info-item"><h3>Tech (Suggested)</h3><p>Node / React / PostgreSQL</p></div>
+                        <div class="info-item"><h3>Status</h3><p>In Production</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>Fitlek digitizes coaching session management with role‑based dashboards, credit packs, coach availability scheduling, and automated notifications. Users buy packs (offline or online future), consume credits per session, and receive reminders.</p>
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Role-based authentication & dashboards</li>
+                            <li>Credit & session pack management</li>
+                            <li>Coach availability & booking calendar</li>
+                            <li>Email confirmations & reminders</li>
+                            <li>Reports: sessions, revenue, user activity</li>
+                        </ul>
+                        <h3>Future</h3>
+                        <ul>
+                            <li>Online payments & push notifications</li>
+                            <li>Coach reviews & waitlist</li>
+                            <li>Multi-language support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WinSpin Mobile Modal -->
+    <div class="project-details-modal" id="winspin-mobile-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>WinSpin – Mobile Gamified Campaigns</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="winspin-mobile-carousel device-carousel" data-carousel="winspin-mobile">
+                        <button class="carousel-arrow prev" aria-label="Previous screenshot" disabled>&larr;</button>
+                        <div class="carousel-viewport">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img class="mobile-main" src="/images/winspin mobile1.png" alt="WinSpin Mobile – Dashboard" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="phone-frame">
+                                        <img src="/images/winspin mobile2.png" alt="WinSpin Mobile – Spin Wheel" />
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="phone-frame">
+                                        <img src="/images/winspin mobile3.png" alt="WinSpin Mobile – Reward Result" />
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="phone-frame">
+                                        <img src="/images/winspin mobile4.jpg" alt="WinSpin Mobile – Campaign Metrics" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-arrow next" aria-label="Next screenshot">&rarr;</button>
+                        <div class="carousel-dots" aria-label="Screenshot navigation">
+                            <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+                            <button class="dot" data-index="1" aria-label="Slide 2"></button>
+                            <button class="dot" data-index="2" aria-label="Slide 3"></button>
+                            <button class="dot" data-index="3" aria-label="Slide 4"></button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Audience</h3><p>Field Employees</p></div>
+                        <div class="info-item"><h3>Core Feature</h3><p>Spin-to-Win Wheel</p></div>
+                        <div class="info-item"><h3>Stack</h3><p>Flutter / Laravel / MySQL</p></div>
+                        <div class="info-item"><h3>Focus</h3><p>Engagement & Data</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>The mobile interface empowers employees to run promotional campaigns onsite, registering spins, allocating rewards, and syncing live metrics to the admin dashboard.</p>
+                        <h3>Highlights</h3>
+                        <ul>
+                            <li>Gamified customer interaction (wheel spin)</li>
+                            <li>Offline-first data capture & sync</li>
+                            <li>Prize & inventory tracking</li>
+                            <li>Secure role-based access</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WinSpin Web Modal -->
+    <div class="project-details-modal" id="winspin-web-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>WinSpin – Web Admin Platform</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-images">
+                        <img src="/images/winspin web1.png" alt="WinSpin Web Dashboard">
+                        <img src="/images/winspin web2.png" alt="WinSpin Analytics">
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Users</h3><p>Admins & Managers</p></div>
+                        <div class="info-item"><h3>Key Modules</h3><p>Campaigns, Users, Rewards</p></div>
+                        <div class="info-item"><h3>Analytics</h3><p>Real-time KPIs</p></div>
+                        <div class="info-item"><h3>Methodology</h3><p>Agile / Scrum</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>The web console centralizes campaign configuration, employee oversight, and performance analytics with secure dashboards and exportable reports.</p>
+                        <h3>Capabilities</h3>
+                        <ul>
+                            <li>Campaign lifecycle & reward matrix management</li>
+                            <li>User & role administration</li>
+                            <li>Prize distribution tracking</li>
+                            <li>Real-time performance charts</li>
+                            <li>Security: access control & encryption</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Suite Coaching Modal -->
+        <div class="project-details-modal" id="suite-coaching-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Suite Coaching – Web Reservation Platform</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="suite-coaching-carousel device-carousel" data-carousel="suite-coaching">
+                        <button class="carousel-arrow prev" aria-label="Previous screenshot" disabled>&larr;</button>
+                        <div class="carousel-viewport">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img class="suite-main" src="/images/suite coaching 1.png" alt="Suite Coaching – Dashboard" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="suite-laptop" src="/images/suite coaching 2.jpg" alt="Suite Coaching – Scheduling on Laptop" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="suite-mobile" src="/images/suite coaching 3.png" alt="Suite Coaching – Mobile View" />
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-arrow next" aria-label="Next screenshot">&rarr;</button>
+                        <div class="carousel-dots" aria-label="Screenshot navigation">
+                            <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+                            <button class="dot" data-index="1" aria-label="Slide 2"></button>
+                            <button class="dot" data-index="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Domain</h3><p>Coaching</p></div>
+                        <div class="info-item"><h3>Core</h3><p>Session Booking</p></div>
+                        <div class="info-item"><h3>Model</h3><p>Credit / Packs</p></div>
+                        <div class="info-item"><h3>Status</h3><p>Active</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>Suite Coaching offers a streamlined web experience for discovering coaches, purchasing session packs, and booking time slots against live availability.</p>
+                        <h3>Features</h3>
+                        <ul>
+                            <li>Dynamic coach availability calendar</li>
+                            <li>User credit balance tracking</li>
+                            <li>Email confirmations & reminders</li>
+                            <li>Admin performance dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Speak Well Modal -->
+        <div class="project-details-modal" id="speak-well-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Speak Well – Online Learning Platform</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="speak-well-carousel device-carousel" data-carousel="speak-well">
+                        <button class="carousel-arrow prev" aria-label="Previous screenshot" disabled>&larr;</button>
+                        <div class="carousel-viewport">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img class="speak-main" src="/images/speak well web 1.png" alt="Speak Well – Web Dashboard" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="speak-laptop" src="/images/speak well web 2.png" alt="Speak Well – Web Lessons" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="speak-mobile" src="/images/speakwell mobile.png" alt="Speak Well – Mobile App" />
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-arrow next" aria-label="Next screenshot">&rarr;</button>
+                        <div class="carousel-dots" aria-label="Screenshot navigation">
+                            <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+                            <button class="dot" data-index="1" aria-label="Slide 2"></button>
+                            <button class="dot" data-index="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Audience</h3><p>Learners & Teachers</p></div>
+                        <div class="info-item"><h3>Learning Path</h3><p>Lessons + Zoom Sessions</p></div>
+                        <div class="info-item"><h3>Certification</h3><p>Digital & Physical</p></div>
+                        <div class="info-item"><h3>Progress</h3><p>Tracked % & Scores</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>Speak Well delivers structured English learning via interactive lessons, quizzes, weekly live sessions, and final exams culminating in certification.</p>
+                        <h3>Core Features</h3>
+                        <ul>
+                            <li>Interactive multimedia lessons & quizzes</li>
+                            <li>Weekly one-on-one session scheduling</li>
+                            <li>Progress dashboard & score tracking</li>
+                            <li>Final exam with digital certificate issuance</li>
+                            <li>Admin back‑office for content & users</li>
+                        </ul>
+                        <h3>Enhancements Planned</h3>
+                        <ul>
+                            <li>Automated reminders & advanced analytics</li>
+                            <li>Expanded quiz formats & AI feedback</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Employee Productivity Tracking Modal -->
+        <div class="project-details-modal" id="employee-productivity-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Employee Productivity Tracking System</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-images">
+                        <img src="/images/employee-productivity.svg" alt="Dashboard View">
+                        <img src="/images/employee-productivity.svg" alt="Task Management View">
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Architecture</h3><p>JavaFX + MySQL (MVC)</p></div>
+                        <div class="info-item"><h3>KPIs</h3><p>Tasks, Efficiency</p></div>
+                        <div class="info-item"><h3>Security</h3><p>Role-based Access</p></div>
+                        <div class="info-item"><h3>Status</h3><p>Delivered</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>A desktop solution enabling managers to assign & monitor tasks, visualize KPIs, and optimize workforce productivity with real-time dashboards.</p>
+                        <h3>Key Modules</h3>
+                        <ul>
+                            <li>Employee & Role Management</li>
+                            <li>Task lifecycle & file attachments</li>
+                            <li>Automated KPI computation</li>
+                            <li>Reporting & performance insights</li>
+                        </ul>
+                        <h3>Future Enhancements</h3>
+                        <ul>
+                            <li>Password encryption & advanced auth</li>
+                            <li>Leave management & performance reviews</li>
+                            <li>Query optimization & scalability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pride Trans Modal -->
+        <div class="project-details-modal" id="pride-trans-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Pride Trans – Transportation Web App</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-images">
+                        <img src="/images/pride trans web 1.png" alt="Pride Trans – Dashboard">
+                        <img src="/images/pride trans web 2.png" alt="Pride Trans – Booking Interface">
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Industry</h3><p>Transportation</p></div>
+                        <div class="info-item"><h3>Website</h3><p>pridetrans.ma</p></div>
+                        <div class="info-item"><h3>Platform</h3><p>Web Application</p></div>
+                        <div class="info-item"><h3>Status</h3><p>Live</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>Pride Trans is a comprehensive transportation management platform that streamlines booking, tracking, and fleet management for modern transportation services.</p>
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Real-time booking and reservation system</li>
+                            <li>Fleet management and vehicle tracking</li>
+                            <li>Customer portal with booking history</li>
+                            <li>Admin dashboard for operations</li>
+                            <li>Payment integration and invoicing</li>
+                        </ul>
+                        <h3>Technology Stack</h3>
+                        <ul>
+                            <li>Modern web technologies</li>
+                            <li>Responsive design for all devices</li>
+                            <li>Secure payment processing</li>
+                            <li>Real-time notifications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slaatkom Modal -->
+        <div class="project-details-modal" id="slaatkom-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Slaatkom – E-commerce Shop</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="slaatkom-carousel device-carousel" data-carousel="slaatkom">
+                        <button class="carousel-arrow prev" aria-label="Previous screenshot" disabled>&larr;</button>
+                        <div class="carousel-viewport">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img class="slaatkom-main" src="/images/slaarkom web 1.png" alt="Slaatkom – Web Storefront" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="slaatkom-web" src="/images/slaatkom web 2.png" alt="Slaatkom – Web Product Catalog" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="slaatkom-mobile" src="/images/slaatkom mobile 1.png" alt="Slaatkom – Mobile App Home" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="slaatkom-mobile" src="/images/slaatkom mobile 2.png" alt="Slaatkom – Mobile Shopping Cart" />
+                                </div>
+                                <div class="carousel-slide">
+                                    <img class="slaatkom-mobile" src="/images/slaatkom mobile 3.png" alt="Slaatkom – Mobile Checkout" />
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-arrow next" aria-label="Next screenshot">&rarr;</button>
+                        <div class="carousel-dots" aria-label="Screenshot navigation">
+                            <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+                            <button class="dot" data-index="1" aria-label="Slide 2"></button>
+                            <button class="dot" data-index="2" aria-label="Slide 3"></button>
+                            <button class="dot" data-index="3" aria-label="Slide 4"></button>
+                            <button class="dot" data-index="4" aria-label="Slide 5"></button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Platform</h3><p>Web & Mobile</p></div>
+                        <div class="info-item"><h3>Industry</h3><p>E-commerce</p></div>
+                        <div class="info-item"><h3>Features</h3><p>Shopping Cart, Payments</p></div>
+                        <div class="info-item"><h3>Status</h3><p>Live</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Overview</h3>
+                        <p>Slaatkom is a comprehensive e-commerce platform offering a seamless shopping experience across web and mobile devices, featuring modern design and secure payment processing.</p>
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Responsive web storefront with product catalog</li>
+                            <li>Mobile app for iOS and Android</li>
+                            <li>Secure shopping cart and checkout</li>
+                            <li>Payment gateway integration</li>
+                            <li>User account management</li>
+                            <li>Order tracking and history</li>
+                        </ul>
+                        <h3>Technology Stack</h3>
+                        <ul>
+                            <li>Cross-platform mobile development</li>
+                            <li>Modern web technologies</li>
+                            <li>Secure payment processing</li>
+                            <li>Cloud hosting and scalability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upcoming AI Solution Modal -->
+        <div class="project-details-modal" id="ai-upcoming-details">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Next-Gen AI Agent (Upcoming)</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-images">
+                        <img src="/images/ai-upcoming.svg" alt="Upcoming AI Agent Concept 1">
+                        <img src="/images/ai-upcoming.svg" alt="Upcoming AI Agent Concept 2">
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item"><h3>Stage</h3><p>Design</p></div>
+                        <div class="info-item"><h3>Focus</h3><p>Automation & Insights</p></div>
+                        <div class="info-item"><h3>Launch</h3><p>Soon</p></div>
+                        <div class="info-item"><h3>Contact</h3><p>Get Early Access</p></div>
+                    </div>
+                    <div class="project-description">
+                        <h3>Preview</h3>
+                        <p>An intelligent, multi-channel AI agent framework for customer support & internal operations—featuring natural language understanding, workflow automation, and plug-in extensibility.</p>
+                        <h3>Planned Capabilities</h3>
+                        <ul>
+                            <li>Conversational intent detection</li>
+                            <li>Knowledge base integration</li>
+                            <li>Task orchestration & RPA hooks</li>
+                            <li>Analytics & continuous learning</li>
+                        </ul>
+                        <p>Interested? Reach out to discuss partnership opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional project modals would be similar to the one above -->
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Create Your Success Story?</h2>
+                    <p>Let's discuss how we can help you achieve your digital goals.</p>
+                    <a href="/contact/" class="btn btn-primary">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="/images/devunivers_white.png" alt="Devunivers Logo">
+                    </div>
+                    <p>Transforming ideas into impactful digital experiences through innovative technology solutions.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/devunivers.agency/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/home/">Home</a></li>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/services/">Services</a></li>
+                        <li><a href="/portfolio/">Portfolio</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="/services/#web-dev">Website Development</a></li>
+                        <li><a href="/services/#software-dev">Software Development</a></li>
+                        <li><a href="/services/#mobile-dev">Mobile App Development</a></li>
+                        <li><a href="/services/#ai-integration">AI Integration</a></li>
+                        <li><a href="/services/#custom-solutions">Custom Software Solutions</a></li>
+                        <li><a href="/services/#devops">DevOps Services</a></li>
+                        <li><a href="/services/#ai-agents">AI Agent Creation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> Résidence Jet Sakane Sidi Maarouf</p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+212666484158">+212 666-484158</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:devunivers.co@gmail.com">devunivers.co@gmail.com</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Devunivers. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="/privacy-policy/">Privacy Policy</a>
+                    <a href="/terms-of-service/">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

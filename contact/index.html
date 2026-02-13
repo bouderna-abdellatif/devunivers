@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Devunivers</title>
+    <link rel="icon" type="image/png" href="/images/devunivers.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/home/">
+                    <img src="/images/devunivers-logo.png" alt="Devunivers Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="/home/">Home</a></li>
+                    <li><a href="/about/">About Us</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/portfolio/">Portfolio</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/contact/" class="active btn btn-primary">Contact Us</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contact Hero Section -->
+        <section class="page-hero contact-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Get in Touch</h1>
+                    <p>Let's discuss how we can help bring your digital vision to life</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>Résidence Jet Sakane Sidi Maarouf<br>Morocco</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>Main: <a href="tel:+212666484158">+212 666-484158</a></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>General: <a href="mailto:devunivers.co@gmail.com">devunivers.co@gmail.com</a></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                        Saturday - Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="form-content">
+                        <div class="section-header">
+                            <h2>Send Us a Message</h2>
+                            <p>Fill out the form below and we'll get back to you as soon as possible</p>
+                        </div>
+                        <form class="contact-form" id="contactForm" action="https://formsubmit.co/devunivers.co@gmail.com" method="post">
+                            <input type="hidden" name="_subject" value="New message from DevUnivers website">
+                            <input type="hidden" name="_captcha" value="true">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name*</label>
+                                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address*</label>
+                                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (optional)">
+                                </div>
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input type="text" id="company" name="company" placeholder="Enter your company name (optional)">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject*</label>
+                                <input type="text" id="subject" name="subject" required placeholder="What is this regarding?">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service of Interest</label>
+                                <select id="service" name="service">
+                                    <option value="" selected disabled>Select a service</option>
+                                    <option value="web-development">Website Development</option>
+                                    <option value="software-development">Software Development</option>
+                                    <option value="mobile-app">Mobile App Development</option>
+                                    <option value="ai-integration">AI Integration</option>
+                                    <option value="custom-solutions">Custom Software Solutions</option>
+                                    <option value="devops">DevOps Services</option>
+                                    <option value="ai-agents">AI Agent Creation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message*</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project or inquiry"></textarea>
+                            </div>
+                            <div class="form-group form-checkbox">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">I agree to the <a href="/privacy-policy/">Privacy Policy</a> and consent to having my data processed.</label>
+                            </div>
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="map-content">
+                        <div class="map-container">
+                            <!-- Replace with actual Google Maps embed code -->
+                            <iframe src="https://www.google.com/maps?q=Residence+Jet+Sakane+Sidi+Maarouf+Casablanca&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="social-connect">
+                            <h3>Connect With Us</h3>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/devunivers.agency/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="contact-faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Common questions about working with us</p>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>What information should I include in my initial inquiry?</h3>
+                            <span class="accordion-icon"></span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>To help us provide the most accurate response, please include details about your project goals, timeline, budget range, any specific features or requirements, and your preferred communication method. The more information you provide, the better we can tailor our response to your needs.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>How quickly will I receive a response to my inquiry?</h3>
+                            <span class="accordion-icon"></span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>We typically respond to all inquiries within 24 business hours. For complex projects, we may schedule a follow-up call or meeting to discuss your requirements in more detail and provide you with a comprehensive response.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>Do you work with clients outside of your location?</h3>
+                            <span class="accordion-icon"></span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Yes, we work with clients globally. Our team is experienced in remote collaboration and we have established processes to ensure effective communication and project management regardless of location. We use video conferencing, project management tools, and regular updates to keep projects on track.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>What happens after I submit my contact form?</h3>
+                            <span class="accordion-icon"></span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>After submitting your contact form, you'll receive an automated confirmation email. Our team will review your inquiry and reach out to schedule an initial consultation. During this consultation, we'll discuss your project in more detail, answer any questions, and determine the next steps to move forward.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Let's Build Something Amazing Together</h2>
+                    <p>Ready to discuss your project in detail? Schedule a free consultation with our experts.</p>
+                    <a href="#" class="btn btn-primary">Schedule a Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="/images/devunivers_white.png" alt="Devunivers Logo">
+                    </div>
+                    <p>Transforming ideas into impactful digital experiences through innovative technology solutions.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/devunivers.agency/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/home/">Home</a></li>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/services/">Services</a></li>
+                        <li><a href="/portfolio/">Portfolio</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="/services/#web-dev">Website Development</a></li>
+                        <li><a href="/services/#software-dev">Software Development</a></li>
+                        <li><a href="/services/#mobile-dev">Mobile App Development</a></li>
+                        <li><a href="/services/#ai-integration">AI Integration</a></li>
+                        <li><a href="/services/#custom-solutions">Custom Software Solutions</a></li>
+                        <li><a href="/services/#devops">DevOps Services</a></li>
+                        <li><a href="/services/#ai-agents">AI Agent Creation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> Résidence Jet Sakane Sidi Maarouf</p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+212666484158">+212 666-484158</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:devunivers.co@gmail.com">devunivers.co@gmail.com</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Devunivers. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="/privacy-policy/">Privacy Policy</a>
+                    <a href="/terms-of-service/">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
