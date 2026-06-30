@@ -21,6 +21,13 @@
     </script>
 </head>
 <body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p data-i18n="promo_banner">🚀 <strong>Offre de lancement !</strong> Découvrez nos nouveaux packs de création de sites web à partir de 3 800 DH. <a href="#pricing">Voir les offres</a></p>
+        </div>
+    </div>
+
     <header>
         <div class="container">
             <div class="logo">
@@ -28,14 +35,20 @@
                     <img src="/images/devunivers-logo.png" alt="Devunivers Logo">
                 </a>
             </div>
-            <nav>
+            <nav style="display: flex; align-items: center;">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ar">ع</button>
+                </div>
                 <ul class="main-nav">
-                    <li><a href="/home/" class="active">Home</a></li>
-                    <li><a href="/about/">About Us</a></li>
-                    <li><a href="/services/">Services</a></li>
-                    <li><a href="/portfolio/">Portfolio</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="/contact/" class="btn btn-primary">Contact Us</a></li>
+                    <li><a href="/home/" class="active" data-i18n="nav_home">Home</a></li>
+                    <li><a href="/about/" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="/services/" data-i18n="nav_services">Services</a></li>
+                    <li><a href="#pricing" data-i18n="nav_pricing">Tarifs</a></li>
+                    <li><a href="/portfolio/" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="/blog/" data-i18n="nav_blog">Blog</a></li>
+                    <li><a href="/contact/" class="btn btn-primary" data-i18n="nav_contact">Contact Us</a></li>
                 </ul>
                 <div class="mobile-menu-toggle">
                     <span></span>
@@ -51,11 +64,11 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1>Transforming Ideas into Impactful Digital Experiences</h1>
-                    <p>We build cutting-edge software solutions that solve real-world problems and drive business growth.</p>
+                    <h1 data-i18n="hero_title">Transforming Ideas into Impactful Digital Experiences</h1>
+                    <p data-i18n="hero_desc">We build cutting-edge software solutions that solve real-world problems and drive business growth.</p>
                     <div class="hero-buttons">
-                        <a href="/services/" class="btn btn-primary">Our Services</a>
-                        <a href="/contact/" class="btn btn-secondary">Get in Touch</a>
+                        <a href="/services/" class="btn btn-primary" data-i18n="hero_btn_services">Our Services</a>
+                        <a href="/contact/" class="btn btn-secondary" data-i18n="hero_btn_contact">Get in Touch</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -68,51 +81,180 @@
         <section class="services-overview">
             <div class="container">
                 <div class="section-header">
-                    <h2>Our Core Services</h2>
-                    <p>Comprehensive digital solutions to power your business</p>
+                    <h2 data-i18n="services_title">Our Core Services</h2>
+                    <p data-i18n="services_subtitle">Comprehensive digital solutions to power your business</p>
                 </div>
                 <div class="services-grid">
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-laptop-code"></i>
                         </div>
-                        <h3>Web Development</h3>
-                        <p>Custom websites and web applications built with cutting-edge technologies.</p>
-                        <a href="/services/#web-dev" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 data-i18n="srv_web_title">Web Development</h3>
+                        <p data-i18n="srv_web_desc">Custom websites and web applications built with cutting-edge technologies.</p>
+                        <a href="/services/#web-dev" class="learn-more" data-i18n="srv_learn_more">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-mobile-alt"></i>
                         </div>
-                        <h3>Mobile App Development</h3>
-                        <p>Native and cross-platform mobile applications for iOS and Android.</p>
-                        <a href="/services/#mobile-dev" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 data-i18n="srv_mob_title">Mobile App Development</h3>
+                        <p data-i18n="srv_mob_desc">Native and cross-platform mobile applications for iOS and Android.</p>
+                        <a href="/services/#mobile-dev" class="learn-more" data-i18n="srv_learn_more">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-robot"></i>
                         </div>
-                        <h3>AI Integration</h3>
-                        <p>Intelligent solutions that leverage machine learning and artificial intelligence.</p>
-                        <a href="/services/#ai-integration" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 data-i18n="srv_ai_title">AI Integration</h3>
+                        <p data-i18n="srv_ai_desc">Intelligent solutions that leverage machine learning and artificial intelligence.</p>
+                        <a href="/services/#ai-integration" class="learn-more" data-i18n="srv_learn_more">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-server"></i>
                         </div>
-                        <h3>DevOps Solutions</h3>
-                        <p>Streamlined development operations and infrastructure management.</p>
-                        <a href="/services/#devops" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h3 data-i18n="srv_devops_title">DevOps Solutions</h3>
+                        <p data-i18n="srv_devops_desc">Streamlined development operations and infrastructure management.</p>
+                        <a href="/services/#devops" class="learn-more" data-i18n="srv_learn_more">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="services-cta">
-                    <a href="/services/" class="btn btn-primary">View All Services</a>
+                    <a href="/services/" class="btn btn-primary" data-i18n="srv_view_all">View All Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="pricing_title">Nos Formules</h2>
+                    <p data-i18n="pricing_subtitle">De la vitrine élégante à la plateforme complète — on construit ce qu'il vous faut.</p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <!-- Pack Vitrine -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <span class="pricing-subtitle" data-i18n="pack_v_sub">LE POINT DE DÉPART</span>
+                            <h3 class="pricing-title" data-i18n="pack_v_title">Pack Vitrine</h3>
+                            <p class="pricing-desc" data-i18n="pack_v_desc">Une présence en ligne élégante, ouverte 24h/24, qui donne envie de vous contacter.</p>
+                            <div class="pricing-price"><bdi>3 800</bdi> <span data-i18n="currency">DH</span></div>
+                            <span class="pricing-note" data-i18n="pack_v_note">Paiement unique</span>
+                        </div>
+                        
+                        <div class="pricing-ideal">
+                            <span data-i18n="pack_ideal">IDÉAL POUR</span>
+                            <div class="ideal-tags">
+                                <span class="ideal-tag" data-i18n="tag_resto">Restaurant</span>
+                                <span class="ideal-tag" data-i18n="tag_artisan">Artisan</span>
+                                <span class="ideal-tag" data-i18n="tag_pme">PME locale</span>
+                                <span class="ideal-tag" data-i18n="tag_portf">Portfolio</span>
+                                <span class="ideal-tag" data-i18n="tag_assoc">Association</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="pricing-features">
+                            <li data-i18n="feat_v1"><i class="fas fa-check"></i> Design sur mesure et moderne</li>
+                            <li data-i18n="feat_v2"><i class="fas fa-check"></i> Pages Accueil, À propos, Services/Menu, Contact</li>
+                            <li data-i18n="feat_v3"><i class="fas fa-check"></i> Affichage parfait mobile & tablette</li>
+                            <li data-i18n="feat_v4"><i class="fas fa-check"></i> Bouton WhatsApp + formulaire de contact</li>
+                            <li data-i18n="feat_v5"><i class="fas fa-check"></i> Liens vers vos réseaux sociaux</li>
+                        </ul>
+                        
+                        <div class="pricing-bonus">
+                            <i class="fas fa-gift"></i>
+                            <p data-i18n="bonus_v"><strong>Bonus :</strong> Hébergement + Nom de domaine offerts la 1ère année.</p>
+                        </div>
+                        
+                        <a href="https://wa.me/212775929057?text=Bonjour%20Devunivers,%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20le%20Pack%20Vitrine." target="_blank" class="pricing-btn btn-whatsapp" data-i18n="btn_commander">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+
+                    <!-- Pack Pro -->
+                    <div class="pricing-card popular">
+                        <div class="pricing-badge" data-i18n="pack_badge"><i class="fas fa-star"></i> LE PLUS POPULAIRE</div>
+                        <div class="pricing-header">
+                            <span class="pricing-subtitle" data-i18n="pack_p_sub">GESTION AUTONOME</span>
+                            <h3 class="pricing-title" data-i18n="pack_p_title">Pack Pro</h3>
+                            <p class="pricing-desc" data-i18n="pack_p_desc">Publiez et mettez à jour vos contenus sans technicien — vous gardez le contrôle total.</p>
+                            <div class="pricing-price"><bdi>7 500</bdi> <span data-i18n="currency">DH</span></div>
+                            <span class="pricing-note" data-i18n="pack_p_note">Prix suggéré</span>
+                        </div>
+                        
+                        <div class="pricing-ideal">
+                            <span data-i18n="pack_ideal">IDÉAL POUR</span>
+                            <div class="ideal-tags">
+                                <span class="ideal-tag" data-i18n="tag_agency">Agence de voyage</span>
+                                <span class="ideal-tag" data-i18n="tag_immo">Immobilier</span>
+                                <span class="ideal-tag" data-i18n="tag_startup">Startup</span>
+                                <span class="ideal-tag" data-i18n="tag_coach">Coach</span>
+                                <span class="ideal-tag" data-i18n="tag_cabinet">Cabinet</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="pricing-features">
+                            <li data-i18n="feat_p1"><i class="fas fa-check"></i> Tout du Pack Vitrine inclus</li>
+                            <li data-i18n="feat_p2"><i class="fas fa-check"></i> Espace d'admin privé pour gérer vos contenus</li>
+                            <li data-i18n="feat_p3"><i class="fas fa-check"></i> Ajout, modification, suppression d'offres en illimité</li>
+                            <li data-i18n="feat_p4"><i class="fas fa-check"></i> Moteur de recherche / filtre intégré</li>
+                            <li data-i18n="feat_p5"><i class="fas fa-check"></i> Formulaire de pré-réservation / demande de devis</li>
+                        </ul>
+                        
+                        <div class="pricing-bonus">
+                            <i class="fas fa-gift"></i>
+                            <p data-i18n="bonus_p"><strong>Bonus :</strong> Hébergement + domaine offerts + Formation d'1h.</p>
+                        </div>
+                        
+                        <a href="https://wa.me/212775929057?text=Bonjour%20Devunivers,%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20le%20Pack%20Pro." target="_blank" class="pricing-btn btn-whatsapp" data-i18n="btn_commander">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+
+                    <!-- Pack Premium -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <span class="pricing-subtitle" data-i18n="pack_pr_sub">100% DIGITALE</span>
+                            <h3 class="pricing-title" data-i18n="pack_pr_title">Pack Premium</h3>
+                            <p class="pricing-desc" data-i18n="pack_pr_desc">Un site qui vend et automatise vos ventes, même quand vous dormez.</p>
+                            <div class="pricing-price"><bdi>12 000</bdi> <span data-i18n="pack_pr_price">DH et +</span></div>
+                            <span class="pricing-note" data-i18n="pack_pr_note">Sur devis selon options</span>
+                        </div>
+                        
+                        <div class="pricing-ideal">
+                            <span data-i18n="pack_ideal">IDÉAL POUR</span>
+                            <div class="ideal-tags">
+                                <span class="ideal-tag" data-i18n="tag_ecom">E-Commerce</span>
+                                <span class="ideal-tag" data-i18n="tag_form">Formation en ligne</span>
+                                <span class="ideal-tag" data-i18n="tag_multi">Multi-services</span>
+                                <span class="ideal-tag" data-i18n="tag_scale">Scale-up</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="pricing-features">
+                            <li data-i18n="feat_pr1"><i class="fas fa-check"></i> Tout du Pack Pro inclus</li>
+                            <li data-i18n="feat_pr2"><i class="fas fa-check"></i> Paiement en ligne sécurisé (CMI / PayPal)</li>
+                            <li data-i18n="feat_pr3"><i class="fas fa-check"></i> Espace client avec tableau de bord personnel</li>
+                            <li data-i18n="feat_pr4"><i class="fas fa-check"></i> Site multilingue (Français / Arabe / Anglais)</li>
+                            <li data-i18n="feat_pr5"><i class="fas fa-check"></i> Avis clients + notifications automatiques</li>
+                            <li data-i18n="feat_pr6"><i class="fas fa-check"></i> Assistance technique prioritaire</li>
+                        </ul>
+                        
+                        <div class="pricing-bonus" style="background-color: rgba(24, 213, 188, 0.1);">
+                            <i class="fas fa-handshake" style="color: var(--secondary-color);"></i>
+                            <p data-i18n="bonus_pr"><strong>Sur mesure :</strong> chaque projet est étudié et chiffré selon vos besoins.</p>
+                        </div>
+                        
+                        <a href="https://wa.me/212775929057?text=Bonjour%20Devunivers,%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20le%20Pack%20Premium." target="_blank" class="pricing-btn btn-whatsapp" data-i18n="btn_devis">
+                            <i class="fab fa-whatsapp"></i> Demander un devis
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Why Choose Us Section -->
-        <section class="why-choose-us">
             <div class="container">
                 <div class="section-header">
                     <h2>Why Choose Devunivers?</h2>
@@ -215,36 +357,36 @@
                     <div class="footer-logo">
                         <img src="/images/devunivers_white.png" alt="Devunivers Logo">
                     </div>
-                    <p>Transforming ideas into impactful digital experiences through innovative technology solutions.</p>
+                    <p data-i18n="footer_desc">Transforming ideas into impactful digital experiences through innovative technology solutions.</p>
                     <div class="social-links">
                         <a href="https://www.instagram.com/devunivers.agency/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-nav">
-                    <h3>Navigation</h3>
+                    <h3 data-i18n="footer_nav">Navigation</h3>
                     <ul>
-                        <li><a href="/home/">Home</a></li>
-                        <li><a href="/about/">About Us</a></li>
-                        <li><a href="/services/">Services</a></li>
-                        <li><a href="/portfolio/">Portfolio</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/contact/">Contact</a></li>
+                        <li><a href="/home/" data-i18n="nav_home">Home</a></li>
+                        <li><a href="/about/" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="/services/" data-i18n="nav_services">Services</a></li>
+                        <li><a href="/portfolio/" data-i18n="nav_portfolio">Portfolio</a></li>
+                        <li><a href="/blog/" data-i18n="nav_blog">Blog</a></li>
+                        <li><a href="/contact/" data-i18n="nav_contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-services">
-                    <h3>Our Services</h3>
+                    <h3 data-i18n="footer_services">Our Services</h3>
                     <ul>
-                        <li><a href="/services/#web-dev">Website Development</a></li>
-                        <li><a href="/services/#software-dev">Software Development</a></li>
-                        <li><a href="/services/#mobile-dev">Mobile App Development</a></li>
-                        <li><a href="/services/#ai-integration">AI Integration</a></li>
-                        <li><a href="/services/#custom-solutions">Custom Software Solutions</a></li>
-                        <li><a href="/services/#devops">DevOps Services</a></li>
-                        <li><a href="/services/#ai-agents">AI Agent Creation</a></li>
+                        <li><a href="/services/#web-dev" data-i18n="footer_services_1">Website Development</a></li>
+                        <li><a href="/services/#software-dev" data-i18n="footer_services_2">Software Development</a></li>
+                        <li><a href="/services/#mobile-dev" data-i18n="footer_services_3">Mobile App Development</a></li>
+                        <li><a href="/services/#ai-integration" data-i18n="footer_services_4">AI Integration</a></li>
+                        <li><a href="/services/#custom-solutions" data-i18n="footer_services_5">Custom Software Solutions</a></li>
+                        <li><a href="/services/#devops" data-i18n="footer_services_6">DevOps Services</a></li>
+                        <li><a href="/services/#ai-agents" data-i18n="footer_services_7">AI Agent Creation</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h3>Contact Us</h3>
+                    <h3 data-i18n="footer_contact">Contact Us</h3>
                     <address>
                         <p><i class="fas fa-map-marker-alt"></i> Résidence Jet Sakane Sidi Maarouf</p>
                         <p><i class="fas fa-phone-alt"></i> <a href="tel:+212666484158">+212 666-484158</a></p>
@@ -253,15 +395,24 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Devunivers. All rights reserved.</p>
+                <p data-i18n="footer_rights">&copy; 2025 Devunivers. All rights reserved.</p>
                 <div class="legal-links">
-                    <a href="/privacy-policy/">Privacy Policy</a>
-                    <a href="/terms-of-service/">Terms of Service</a>
+                    <a href="/privacy-policy/" data-i18n="footer_privacy">Privacy Policy</a>
+                    <a href="/terms-of-service/" data-i18n="footer_terms">Terms of Service</a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- Floating CTA -->
+    <a href="#pricing" class="floating-cta">
+        <div class="cta-pulse"></div>
+        <i class="fas fa-tags"></i>
+        <span data-i18n="cta_packs">Voir nos Packs</span>
+    </a>
+
+    <script src="/js/translations.js"></script>
+    <script src="/js/i18n.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>

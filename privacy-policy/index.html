@@ -28,14 +28,20 @@
                     <img src="/images/devunivers-logo.png" alt="Devunivers Logo">
                 </a>
             </div>
-            <nav>
+            <nav style="display: flex; align-items: center;">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ar">ع</button>
+                </div>
                 <ul class="main-nav">
-                    <li><a href="/home/">Home</a></li>
-                    <li><a href="/about/">About Us</a></li>
-                    <li><a href="/services/">Services</a></li>
-                    <li><a href="/portfolio/">Portfolio</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="/contact/" class="btn btn-primary">Contact Us</a></li>
+                    <li><a href="/home/" class="active" data-i18n="nav_home">Home</a></li>
+                    <li><a href="/about/" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="/services/" data-i18n="nav_services">Services</a></li>
+                    <li><a href="#pricing" data-i18n="nav_pricing">Tarifs</a></li>
+                    <li><a href="/portfolio/" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="/blog/" data-i18n="nav_blog">Blog</a></li>
+                    <li><a href="/contact/" class="btn btn-primary" data-i18n="nav_contact">Contact Us</a></li>
                 </ul>
                 <div class="mobile-menu-toggle">
                     <span></span>
@@ -96,36 +102,36 @@
                     <div class="footer-logo">
                         <img src="/images/devunivers_white.png" alt="Devunivers Logo">
                     </div>
-                    <p>Transforming ideas into impactful digital experiences through innovative technology solutions.</p>
+                    <p data-i18n="footer_desc">Transforming ideas into impactful digital experiences through innovative technology solutions.</p>
                     <div class="social-links">
                         <a href="https://www.instagram.com/devunivers.agency/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-nav">
-                    <h3>Navigation</h3>
+                    <h3 data-i18n="footer_nav">Navigation</h3>
                     <ul>
-                        <li><a href="/home/">Home</a></li>
-                        <li><a href="/about/">About Us</a></li>
-                        <li><a href="/services/">Services</a></li>
-                        <li><a href="/portfolio/">Portfolio</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/contact/">Contact</a></li>
+                        <li><a href="/home/" data-i18n="nav_home">Home</a></li>
+                        <li><a href="/about/" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="/services/" data-i18n="nav_services">Services</a></li>
+                        <li><a href="/portfolio/" data-i18n="nav_portfolio">Portfolio</a></li>
+                        <li><a href="/blog/" data-i18n="nav_blog">Blog</a></li>
+                        <li><a href="/contact/" data-i18n="nav_contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-services">
-                    <h3>Our Services</h3>
+                    <h3 data-i18n="footer_services">Our Services</h3>
                     <ul>
-                        <li><a href="/services/#web-dev">Website Development</a></li>
-                        <li><a href="/services/#software-dev">Software Development</a></li>
-                        <li><a href="/services/#mobile-dev">Mobile App Development</a></li>
-                        <li><a href="/services/#ai-integration">AI Integration</a></li>
-                        <li><a href="/services/#custom-solutions">Custom Software Solutions</a></li>
-                        <li><a href="/services/#devops">DevOps Services</a></li>
-                        <li><a href="/services/#ai-agents">AI Agent Creation</a></li>
+                        <li><a href="/services/#web-dev" data-i18n="footer_services_1">Website Development</a></li>
+                        <li><a href="/services/#software-dev" data-i18n="footer_services_2">Software Development</a></li>
+                        <li><a href="/services/#mobile-dev" data-i18n="footer_services_3">Mobile App Development</a></li>
+                        <li><a href="/services/#ai-integration" data-i18n="footer_services_4">AI Integration</a></li>
+                        <li><a href="/services/#custom-solutions" data-i18n="footer_services_5">Custom Software Solutions</a></li>
+                        <li><a href="/services/#devops" data-i18n="footer_services_6">DevOps Services</a></li>
+                        <li><a href="/services/#ai-agents" data-i18n="footer_services_7">AI Agent Creation</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h3>Contact Us</h3>
+                    <h3 data-i18n="footer_contact">Contact Us</h3>
                     <address>
                         <p><i class="fas fa-map-marker-alt"></i> Résidence Jet Sakane Sidi Maarouf</p>
                         <p><i class="fas fa-phone-alt"></i> <a href="tel:+212666484158">+212 666-484158</a></p>
@@ -134,15 +140,17 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Devunivers. All rights reserved.</p>
+                <p data-i18n="footer_rights">&copy; 2025 Devunivers. All rights reserved.</p>
                 <div class="legal-links">
-                    <a href="/privacy-policy/">Privacy Policy</a>
-                    <a href="/terms-of-service/">Terms of Service</a>
+                    <a href="/privacy-policy/" data-i18n="footer_privacy">Privacy Policy</a>
+                    <a href="/terms-of-service/" data-i18n="footer_terms">Terms of Service</a>
                 </div>
             </div>
         </div>
     </footer>
 
+        <script src="/js/translations.js"></script>
+    <script src="/js/i18n.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>
