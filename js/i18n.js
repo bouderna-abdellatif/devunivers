@@ -51,6 +51,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         });
+
+        // Update page title if data-i18n-title attribute exists
+        const titleEl = document.querySelector('title[data-i18n-title]');
+        if (titleEl) {
+            const titleKey = titleEl.getAttribute('data-i18n-title');
+            if (translations && translations[titleKey] && translations[titleKey][lang]) {
+                document.title = translations[titleKey][lang];
+            }
+        }
+
+        // Update meta description if data-i18n-meta attribute exists
+        const metaDesc = document.querySelector('meta[data-i18n-meta]');
+        if (metaDesc) {
+            const metaKey = metaDesc.getAttribute('data-i18n-meta');
+            if (translations && translations[metaKey] && translations[metaKey][lang]) {
+                metaDesc.setAttribute('content', translations[metaKey][lang]);
+            }
+        }
     };
 
     const setLanguage = (lang) => {

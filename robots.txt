@@ -1,0 +1,9 @@
+# Robots.txt for devunivers.com
+User-agent: *
+Allow: /
+
+# Disallow admin/private areas
+Disallow: /privacy-policy/
+
+# Sitemap
+Sitemap: https://devunivers.com/sitemap.xml

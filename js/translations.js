@@ -386,5 +386,69 @@ const translations = {
         "fr": "Voir nos Packs",
         "en": "View our Packs",
         "ar": "شاهد باقاتنا"
+    },
+
+    // === PAGE TITLES (SEO) ===
+    "page_title_home": {
+        "fr": "Devunivers | Création de Sites Web au Maroc - Développement Web & Apps",
+        "en": "Devunivers | Web Development Agency in Morocco - Websites & Apps",
+        "ar": "ديف يونيفرس | إنشاء مواقع الويب في المغرب - تطوير الويب والتطبيقات"
+    },
+    "page_title_services": {
+        "fr": "Nos Services | Création de Sites Web, Apps Mobiles & IA - Devunivers",
+        "en": "Our Services | Web Development, Mobile Apps & AI - Devunivers",
+        "ar": "خدماتنا | إنشاء المواقع، تطبيقات الجوال والذكاء الاصطناعي - ديف يونيفرس"
+    },
+    "page_title_about": {
+        "fr": "À Propos de Devunivers | Agence Digitale au Maroc",
+        "en": "About Devunivers | Digital Agency in Morocco",
+        "ar": "من نحن | ديف يونيفرس - وكالة رقمية في المغرب"
+    },
+    "page_title_contact": {
+        "fr": "Contactez Devunivers | Agence Web au Maroc - Devis Gratuit",
+        "en": "Contact Devunivers | Web Agency in Morocco - Free Quote",
+        "ar": "اتصل بنا | ديف يونيفرس - وكالة ويب في المغرب - عرض سعر مجاني"
+    },
+    "page_title_blog": {
+        "fr": "Blog Devunivers | Actualités Tech & Développement Web au Maroc",
+        "en": "Devunivers Blog | Tech News & Web Development in Morocco",
+        "ar": "مدونة ديف يونيفرس | أخبار التقنية وتطوير الويب في المغرب"
+    },
+    "page_title_portfolio": {
+        "fr": "Nos Réalisations | Portfolio de Projets Web & Mobile - Devunivers",
+        "en": "Our Work | Web & Mobile Project Portfolio - Devunivers",
+        "ar": "أعمالنا | محفظة مشاريع الويب والتطبيقات - ديف يونيفرس"
+    },
+
+    // === META DESCRIPTIONS (SEO) ===
+    "page_desc_home": {
+        "fr": "Devunivers, agence digitale au Maroc spécialisée en création de sites web, développement d'applications mobiles et intégration IA. Devis gratuit.",
+        "en": "Devunivers, digital agency in Morocco specializing in website creation, mobile app development and AI integration. Free quote.",
+        "ar": "ديف يونيفرس، وكالة رقمية في المغرب متخصصة في إنشاء المواقع الإلكترونية وتطوير تطبيقات الجوال ودمج الذكاء الاصطناعي. عرض سعر مجاني."
+    },
+    "page_desc_services": {
+        "fr": "Découvrez nos services : création de sites web, développement d'applications mobiles, intégration IA, solutions DevOps et logiciels sur mesure au Maroc.",
+        "en": "Discover our services: website creation, mobile app development, AI integration, DevOps solutions and custom software in Morocco.",
+        "ar": "اكتشف خدماتنا: إنشاء مواقع الويب، تطوير تطبيقات الجوال، دمج الذكاء الاصطناعي، حلول DevOps وبرمجيات مخصصة في المغرب."
+    },
+    "page_desc_about": {
+        "fr": "Découvrez Devunivers, votre agence digitale au Maroc. Équipe passionnée de développeurs spécialisés en création web, apps mobiles et IA depuis 2025.",
+        "en": "Discover Devunivers, your digital agency in Morocco. A passionate team of developers specializing in web creation, mobile apps and AI since 2025.",
+        "ar": "تعرف على ديف يونيفرس، وكالتك الرقمية في المغرب. فريق شغوف من المطورين المتخصصين في إنشاء الويب وتطبيقات الجوال والذكاء الاصطناعي منذ 2025."
+    },
+    "page_desc_contact": {
+        "fr": "Contactez Devunivers pour un devis gratuit. Agence web basée à Casablanca, Maroc. Appelez-nous au +212 666-484158 ou envoyez un message.",
+        "en": "Contact Devunivers for a free quote. Web agency based in Casablanca, Morocco. Call us at +212 666-484158 or send a message.",
+        "ar": "تواصل مع ديف يونيفرس للحصول على عرض سعر مجاني. وكالة ويب مقرها الدار البيضاء، المغرب. اتصل بنا على 158-484 666 212+ أو أرسل رسالة."
+    },
+    "page_desc_blog": {
+        "fr": "Lisez nos articles sur le développement web, les applications mobiles, l'intelligence artificielle et les tendances tech au Maroc.",
+        "en": "Read our articles about web development, mobile apps, artificial intelligence and tech trends in Morocco.",
+        "ar": "اقرأ مقالاتنا حول تطوير الويب وتطبيقات الجوال والذكاء الاصطناعي واتجاهات التكنولوجيا في المغرب."
+    },
+    "page_desc_portfolio": {
+        "fr": "Découvrez nos réalisations : sites web, applications mobiles et solutions IA développées pour nos clients au Maroc et à l'international.",
+        "en": "Discover our work: websites, mobile apps and AI solutions developed for our clients in Morocco and internationally.",
+        "ar": "اكتشف أعمالنا: مواقع الويب وتطبيقات الجوال وحلول الذكاء الاصطناعي التي طورناها لعملائنا في المغرب والعالم."
     }
 };
