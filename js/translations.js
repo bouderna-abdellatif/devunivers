@@ -269,6 +269,7 @@ const translations = {
         "ar": "موقع يبيع ويقوم بأتمتة مبيعاتك، حتى وأنت نائم."
     },
     "pack_pr_price": { "fr": "DH et +", "en": "DH and +", "ar": "درهم وأكثر" },
+    "currency": { "fr": "DH", "en": "DH", "ar": "درهم" },
     "pack_pr_note": { "fr": "Sur devis selon options", "en": "On quote according to options", "ar": "حسب التسعيرة بناءً على الخيارات" },
     "tag_ecom": { "fr": "E-Commerce", "en": "E-Commerce", "ar": "تجارة إلكترونية" },
     "tag_form": { "fr": "Formation en ligne", "en": "Online training", "ar": "تدريب عبر الإنترنت" },
@@ -377,9 +378,9 @@ const translations = {
 
     // === MARKETING ===
     "promo_banner": {
-        "fr": "🚀 <strong>Offre de lancement !</strong> Découvrez nos nouveaux packs de création de sites web à partir de 3 800 DH. <a href='#pricing'>Voir les offres</a>",
-        "en": "🚀 <strong>Launch Offer!</strong> Discover our new website creation packs starting at 3 800 DH. <a href='#pricing'>View offers</a>",
-        "ar": "🚀 <strong>عرض الإطلاق!</strong> اكتشف باقات إنشاء المواقع الإلكترونية الجديدة ابتداءً من 3 800 درهم. <a href='#pricing'>عرض الباقات</a>"
+        "fr": "🚀 <strong>Offre de lancement !</strong> Découvrez nos nouveaux packs de création de sites web à partir de <bdi>3 800</bdi> DH. <a href='#pricing'>Voir les offres</a>",
+        "en": "🚀 <strong>Launch Offer!</strong> Discover our new website creation packs starting at <bdi>3 800</bdi> DH. <a href='#pricing'>View offers</a>",
+        "ar": "🚀 <strong>عرض الإطلاق!</strong> اكتشف باقات إنشاء المواقع الإلكترونية الجديدة ابتداءً من <bdi>3 800</bdi> درهم. <a href='#pricing'>عرض الباقات</a>"
     },
     "cta_packs": {
         "fr": "Voir nos Packs",
